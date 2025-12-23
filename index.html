@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merry Christmas, My Love 🎄❤️</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background snow & emojis -->
+  <div id="snow-container"></div>
+
+  <div class="floating-emoji e1">❤️</div>
+  <div class="floating-emoji e2">🎄</div>
+  <div class="floating-emoji e3">✨</div>
+  <div class="floating-emoji e4">🎁</div>
+  <div class="floating-emoji e5">❄️</div>
+
+  <!-- Flying Santa -->
+  <div class="santa-flight">🎅🛷✨</div>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="min-vh-100 d-flex align-items-center justify-content-center">
+    <div class="hero-glow"></div>
+    <div class="container text-center hero-content">
+      <div class="hero-badge">For my one and only ✨</div>
+
+      <h1 class="hero-title">
+        Merry Christmas, <span id="her-name">My Love</span> 🎄
+      </h1>
+      <p class="hero-subtitle">
+        A small crazy website, made only for you… with all my dil se love. 💖
+      </p>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6 col-lg-5">
+          <!-- 3D style love card -->
+          <div class="love-card" id="love-card">
+            <div class="love-card-inner">
+              <div class="love-front">
+                <div class="hero-orbit">
+                  <span>💫</span><span>❤️</span><span>✨</span>
+                </div>
+                <div class="emoji-big">🥰</div>
+                <h2 class="love-front-title">Tap to flip me 💌</h2>
+                <p class="love-front-text">
+                  A secret message is hiding inside this card…
+                </p>
+              </div>
+              <div class="love-back">
+                <h2>Hey pretty human 💕</h2>
+                <p>
+                  You’re not just my Christmas… you are my every season, every mood,
+                  every reason to smile.
+                </p>
+                <p class="small mb-0">Tap again to close 🥺</p>
+              </div>
+            </div>
+          </div>
+
+          <button id="open-message" class="btn btn-light btn-lg mt-4 w-100">
+            Open Your Christmas Message 🎁
+          </button>
+
+          <a
+            href="https://www.youtube.com/watch?v=iogFxjLiuCQ&list=RDiogFxjLiuCQ&start_radio=1"
+            target="_blank"
+            class="btn btn-outline-light btn-sm mt-3 w-100"
+          >
+            ▶ Play Our Song on YouTube 💿
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-5 mt-4 mt-md-0">
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span>∞</span>
+              <p>Times I choose you</p>
+            </div>
+            <div class="stat-item">
+              <span>100%</span>
+              <p>My heart reserved for you</p>
+            </div>
+            <div class="stat-item">
+              <span>24/7</span>
+              <p>Thinking about you</p>
+            </div>
+          </div>
+
+          <div class="hero-3d-characters mt-4">
+            <div class="char-3d pikachu-3d">
+              <div class="char-3d-inner">
+                <span class="char-emoji">⚡🐭</span>
+                <p>Pikachu-style cutie: that’s you when you smile.</p>
+              </div>
+            </div>
+            <div class="char-3d panda-3d">
+              <div class="char-3d-inner">
+                <span class="char-emoji">🐼</span>
+                <p>My panda hug mode: activated only for you.</p>
+              </div>
+            </div>
+            <div class="char-3d santa-3d">
+              <div class="char-3d-inner">
+                <span class="char-emoji">🎅</span>
+                <p>Santa delivering one special gift: my whole heart.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-down mt-5">
+        <span>Scroll down, baby 💖</span>
+        <div class="mouse"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MESSAGE SECTION -->
+  <section id="message" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">A Special Message For You 💌</h2>
+      <p id="typewriter" class="typewriter-text"></p>
+
+      <div class="row g-4 mt-4">
+        <div class="col-6 col-md-3">
+          <div class="emoji-card">
+            <div class="emoji-icon">🎄</div>
+            <p class="emoji-text">You are my favorite festival.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="emoji-card">
+            <div class="emoji-icon">❤️</div>
+            <p class="emoji-text">My heart glows like fairy lights with you.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="emoji-card">
+            <div class="emoji-icon">🎁</div>
+            <p class="emoji-text">You’re the best gift I’ve ever received.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="emoji-card">
+            <div class="emoji-icon">✨</div>
+            <p class="emoji-text">You make my boring days magical.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUTE 3D STYLE ZONE -->
+  <section id="cute-zone" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">3D Cute Universe For My Girl 🧸✨</h2>
+      <p class="cute-intro">
+        Pikachu vibes, panda hugs, anime energy – exactly like us. 💕
+      </p>
+      <div class="row g-4 justify-content-center mt-4">
+        <div class="col-6 col-md-4">
+          <div class="cute-char pikachu-style">
+            <div class="char-emoji-big">⚡🐭</div>
+            <p class="char-text">You shock my heart with every “hi” you send.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="cute-char panda-style">
+            <div class="char-emoji-big">🐼💤</div>
+            <p class="char-text">I want lazy panda days with you, cuddles and movies.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="cute-char anime-style">
+            <div class="char-emoji-big">🌸👧</div>
+            <p class="char-text">If life was anime, you’d be my main character.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOVE LETTER SECTION -->
+  <section id="letter" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">Open Your Love Letter 💌</h2>
+      <p class="letter-intro">
+        A handwritten feeling, inside this small envelope straight from my heart.
+      </p>
+
+      <div class="envelope-wrapper">
+        <div class="envelope" id="envelope">
+          <div class="envelope-back"></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="letter-paper">
+            <p class="letter-text">
+              Dear my most precious person, 💖<br /><br />
+              Thank you for being the reason my normal days feel special and my sad days feel lighter.
+              When everything feels too much, your voice becomes my safe place.<br /><br />
+              This Christmas, I don’t wish for parties or fancy gifts.
+              I just wish for more laughs with you, more calls with you,
+              more “I love you” moments with you. 🎄❤️<br /><br />
+              Yours, always and only,<br />
+              <span class="letter-sign">Nitin</span> 💕
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <button id="open-letter" class="btn btn-light mt-4">
+        Tap to open / close 💌
+      </button>
+    </div>
+  </section>
+
+  <!-- FINAL WISH SECTION -->
+  <section id="final" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">My Christmas Wish For You 🌟</h2>
+      <p class="final-text">
+        May your days be soft like snow, bright like Christmas lights, and warm like my arms around you.  
+        No matter how many winters come and go, my favorite place will always be right next to you. ❤️
+      </p>
+
+      <div class="emoji-rain">
+        <span>❤️</span><span>🎄</span><span>❄️</span><span>🎁</span><span>✨</span>
+      </div>
+
+      <button class="btn btn-light mt-4" id="hug-button">
+        Tap here for a virtual hug 🤗
+      </button>
+      <p id="hug-text" class="hug-text mt-3"></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-3 text-center footer">
+    <small>
+      Made with endless love by <span class="highlight-name">Nitin</span> 💖
+    </small>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
